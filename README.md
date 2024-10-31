@@ -4,17 +4,17 @@ Neste projeto é disponibilizado arquivo docker-compose.yml, onde foi configurad
 Plugin do Zabbix já esta configurado para o container do Grafana.
 
 # Instalação
-Para subir os containers, execute o comando "docker-compose -p Zabbix -f docker-compose-zabbix.yml up -d"  na pasta onde está localizado o arquivo docker-compose-zabbix.yml.
+Para subir os containers, execute o comando **"docker-compose -p Zabbix -f docker-compose-zabbix.yml up -d"**  na pasta onde está localizado o arquivo docker-compose-zabbix.yml.
 
 Explicando o comando:
 
--p: define um nome para o projeto (no caso no comando esta definido como Zabbix, mas você poderá colocar o nome que quiser)
+**-p**: define um nome para o projeto (no caso no comando esta definido como Zabbix, mas você poderá colocar o nome que quiser)
 
--f: especifica o arquivo YAML a ser utilizado ao inves do padrão "docker-compose.yml"
+**-f**: especifica o arquivo YAML a ser utilizado ao inves do padrão "docker-compose.yml"
 
-up: inicializa os containers definidos no arquivo de composição.
+**up**: inicializa os containers definidos no arquivo de composição.
 
--d: executa os containers em modo "detached", ou seja, em segundo plano. Não sera exibido no terminal atual os logs.
+**-d**: executa os containers em modo "detached", ou seja, em segundo plano. Não sera exibido no terminal atual os logs.
 
 
 
