@@ -20,3 +20,5 @@ Explicando o comando:
 
 Caso queira personalizar a configuração basta editar o arquivo docker-compose-zabbix.yml usando VSCode.
 
+
+[Veja o tutorial para instalar no Youtube](https://youtu.be/4ig2hdg11Jo)
